@@ -40,7 +40,6 @@ def parse_sf_express_address(text):
 
 # 示例测试
 text = input("请输入地址、姓名及联系电话：")
-# 测试用例1: "广东省深圳市南山区科技园路1号 张三 13800138000"
-# 测试用例2: "张三 13800138000 广东省深圳市南山区科技园路1号"
+# 测试用例1: "中国广东省广州市番禺区广州大学城外环东路382号 张三 11451438000"
 result = parse_sf_express_address(text)
 print(result)
